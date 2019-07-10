@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect('mongodb://localhost/amn-data', {
+mongoose.connect('mongodb+srv://Tonyx3ls:e115nedlm@cluster0-kzn3r.mongodb.net/test?retryWrites=true&w=majority', {
   useCreateIndex: true,
   useNewUrlParser: true
 })
